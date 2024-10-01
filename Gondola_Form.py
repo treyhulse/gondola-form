@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Gondola Customization",
+    page_icon="🛠️",
+    layout="wide",
+)
+
 # Custom CSS to hide the top bar and footer
 hide_streamlit_style = """
             <style>
@@ -9,12 +15,6 @@ hide_streamlit_style = """
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
-st.set_page_config(
-    page_title="Gondola Customization",
-    page_icon="🛠️",
-    layout="wide",
-)
 
 # Set up the layout with two equal columns
 col1, col2 = st.columns([1, 1.5])
