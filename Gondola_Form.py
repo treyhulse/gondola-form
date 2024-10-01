@@ -20,8 +20,8 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 col1, col2 = st.columns([1, 1.5])
 
 # Define image paths relative to the project directory
-default_image = "./images/LogoWhite.png"
-changed_image = "./images/48_60_22_8.png"
+default_image = "./images/48_60_22_8.png"
+changed_image = "./images/LogoWhite.png"
 
 # Initialize session state to track changes and set default image
 if "image_displayed" not in st.session_state:
