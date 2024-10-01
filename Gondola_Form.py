@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Gondola Parts List Generator",
+    page_icon="🛠️",
+    layout="wide",
+)
+
 # Set up the layout with two equal columns
 col1, col2 = st.columns([1, 1])
 
