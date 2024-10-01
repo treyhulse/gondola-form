@@ -115,7 +115,6 @@ with col1:
 
 # Right Column: Display Image
 with col2:
-    st.subheader("Configuration Preview")
 
     # Display the image based on the session state
     st.image(st.session_state.image_displayed, caption="Configuration Image", use_column_width=True)
