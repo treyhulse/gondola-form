@@ -117,4 +117,4 @@ with col1:
 with col2:
 
     # Display the image based on the session state
-    st.image(st.session_state.image_displayed, caption="Configuration Image", use_column_width=True)
+    st.image(st.session_state.image_displayed, caption="Configuration Preview", use_column_width=True)
