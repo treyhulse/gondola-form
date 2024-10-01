@@ -28,25 +28,25 @@ with col1:
     # Configuration Selection
     st.subheader("Configuration")
     configuration = st.radio(
-        "Select Configuration", ["Island/Gondola", "Wall"], index=0, horizontal=True, on_change=update_image
+        ["Island/Gondola", "Wall"], index=0, horizontal=True, on_change=update_image
     )
 
     # Height Selection with Slider
     st.subheader("Height")
     selected_height = st.slider(
-        "Select Height", min_value=48, max_value=96, step=6, value=48, on_change=update_image
+        min_value=48, max_value=96, step=6, value=48, on_change=update_image
     )
 
     # Width Selection with Slider
     st.subheader("Width")
     selected_width = st.slider(
-        "Select Width", min_value=2, max_value=4, step=1, value=2, on_change=update_image
+        min_value=2, max_value=4, step=1, value=2, on_change=update_image
     )
 
     # Color Selection
     st.subheader("Color")
     color = st.radio(
-        "Select Color", ["CHR", "PLT"], index=0, horizontal=True, on_change=update_image
+        ["CHR", "PLT"], index=0, horizontal=True, on_change=update_image
     )
 
     # Side A Back Panel Type
