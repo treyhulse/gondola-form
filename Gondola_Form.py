@@ -1,5 +1,15 @@
 import streamlit as st
 
+# Custom CSS to hide the top bar and footer
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 st.set_page_config(
     page_title="Gondola Customization",
     page_icon="🛠️",
