@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Gondola Parts List Generator",
+    page_title="Gondola Customization",
     page_icon="🛠️",
     layout="wide",
 )
@@ -23,7 +23,7 @@ def update_image():
 
 # Left Column: Form (takes up 50% of the screen width)
 with col1:
-    st.title("Parts List Generator")
+    st.title("Gondola Customization")
 
     # Configuration Selection
     st.subheader("Configuration")
