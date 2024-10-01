@@ -69,7 +69,8 @@ with col2:
 
     # Placeholder to display dynamic image based on form selections
     # You can replace this with the logic to load and show images as per your requirement
-    image_path = f"/mnt/data/config_{configuration.lower()}_{color.lower()}_{selected_height}_{selected_width}.png"
+    # image_path = f"/mnt/data/config_{configuration.lower()}_{color.lower()}_{selected_height}_{selected_width}.png"
+    image_path = .gondola-form/images/LogoRed.png
 
     try:
         st.image(image_path, caption=f"{configuration} Configuration - {color}", use_column_width=True)
